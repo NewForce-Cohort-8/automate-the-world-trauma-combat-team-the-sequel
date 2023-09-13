@@ -1,4 +1,4 @@
-import {getCountry} from './database.js'
+import {getCountry} from './nz-database.js'
 
 export const countryList = () => {
     // Invoke the function that you imported from the database module

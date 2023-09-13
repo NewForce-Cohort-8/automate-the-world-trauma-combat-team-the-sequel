@@ -1,4 +1,4 @@
-import {getCelebs} from './database.js'
+import {getCelebs} from './nz-database.js'
 
 export const celebList = () => {
     // Invoke the function that you imported from the database module

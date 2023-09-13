@@ -1,4 +1,4 @@
-import {getCities} from './database.js'
+import {getCities} from './nz-database.js'
 
 export const cityList = () => {
     // Invoke the function that you imported from the database module

@@ -1,4 +1,4 @@
-import { getCountry } from './database.js'
+import { getCountry } from './nz-database.js'
 
 const allCountries = getCountry()
 
@@ -6,7 +6,7 @@ for (const singleCountry of allCountries) {
     console.log(singleCountry)
 }
 
-import { getCelebs } from './database.js'
+import { getCelebs } from './nz-database.js'
 
 const allCelebs = getCelebs()
 
@@ -14,7 +14,7 @@ for (const singleCeleb of allCelebs) {
     console.log(singleCeleb)
 }
 
-import { getLandmarks } from './database.js'
+import { getLandmarks } from './nz-database.js'
 
 const allLandmarks = getLandmarks()
 
@@ -22,7 +22,7 @@ for (const singleLandmark of allLandmarks) {
     console.log(singleLandmark)
 }
 
-import { getCities } from './database.js'
+import { getCities } from './nz-database.js'
 
 const allCities = getCities()
 
@@ -31,7 +31,7 @@ for (const singleCities of allCities) {
 }
 
 
-import {countryList} from './countrylist.js'
+import {countryList} from './nz-countrylist.js'
 
 let finalCountryList = document.querySelector('.country-list')
 
@@ -45,14 +45,14 @@ let finalCelebList = document.querySelector('.celeb-list')
 finalCelebList.innerHTML = celebList()
 
 
-import {landmarkList} from './landmarkslist.js'
+import {landmarkList} from './nz-landmarkslist.js'
 
 let finalLandmarksList = document.querySelector('.landmark-list')
 
 finalLandmarksList.innerHTML = landmarkList()
 
 
-import {cityList} from './citylist.js'
+import {cityList} from './nz-citylist.js'
 
 let finalCityList = document.querySelector('.city-list')
 

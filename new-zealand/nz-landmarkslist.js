@@ -1,4 +1,4 @@
-import {getLandmarks} from './database.js'
+import {getLandmarks} from './nz-database.js'
 
 export const landmarkList = () => {
     // Invoke the function that you imported from the database module
