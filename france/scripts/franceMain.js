@@ -18,7 +18,7 @@ export let celebList = () => {
     }
     return celebHtmlString;
 }
-
+//yo
 let newSectionForCelebList = document.querySelector(".celeb-list");
 newSectionForCelebList.innerHTML = celebList();
 
@@ -66,7 +66,7 @@ export let cityList = () => {
                 <li id="city-decription">${singleCityObject.detail}</li>
             </ul>
             <a href=${singleCityObject.link}>More Info</a>
-            
+
         </div>`;
     }
     return cityHtmlString;
