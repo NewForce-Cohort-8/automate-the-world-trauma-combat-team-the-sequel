@@ -45,11 +45,11 @@ let finalCelebList = document.querySelector('.celeb-list')
 finalCelebList.innerHTML = celebList()
 
 
-import {landmarksList} from './landmarkslist.js'
+import {landmarkList} from './landmarkslist.js'
 
 let finalLandmarksList = document.querySelector('.landmark-list')
 
-finalLandmarksList.innerHTML = landmarksList()
+finalLandmarksList.innerHTML = landmarkList()
 
 
 import {cityList} from './citylist.js'

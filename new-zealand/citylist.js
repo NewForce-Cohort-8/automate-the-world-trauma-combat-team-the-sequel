@@ -2,7 +2,7 @@ import {getCities} from './database.js'
 
 export const cityList = () => {
     // Invoke the function that you imported from the database module
-    const cities = getCity()
+    const cities = getCities()
 
     // Start building a string filled with HTML syntax
     let htmlString = '<article class="cityList">'

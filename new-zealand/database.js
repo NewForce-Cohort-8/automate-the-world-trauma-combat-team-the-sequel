@@ -71,6 +71,12 @@ makeLandmark(
 
 )
 
+makeCity(
+    "img",
+    "city name",
+    "link"
+)
+
 
 
 //  exporting values from array to use in HTML
@@ -88,5 +94,5 @@ export const getLandmarks = () => {
 }
 
 export const getCities = () => {
-    return cities.landmarks.map(copyOfSingleCityObject => ({...copyOfSingleCityObject}))
+    return database.cities.map(copyOfSingleCityObject => ({...copyOfSingleCityObject}))
 }
