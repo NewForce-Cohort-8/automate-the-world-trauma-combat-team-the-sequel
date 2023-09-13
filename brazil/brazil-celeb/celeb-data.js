@@ -22,3 +22,4 @@ const celebData = {
 export const getCeleb = () => {
     return celebData.celebArray.map(copyOfSingleCelebArrayObject => ({...copyOfSingleCelebArrayObject}))
 }
+// Random
