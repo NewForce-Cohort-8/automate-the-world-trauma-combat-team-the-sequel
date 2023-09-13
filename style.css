@@ -1,3 +1,9 @@
-nav {
-
+#navbar {
+  font-size: x-large;
+  height: 8vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-top: 20px;
 }
