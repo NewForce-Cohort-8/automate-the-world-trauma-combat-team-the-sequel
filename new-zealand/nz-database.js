@@ -67,14 +67,15 @@ makeCeleb(
 makeLandmark(
     "A land of beauty and adventure, New Zealand is home to incredible activities worthy of a place on anyone's bucket list.",
     "The highlight of New Zealand is it's natural beauty, make sure to go stargazing, visit the beaches, and go whale watching!",
-    "When you're in New Zealand you MUST visit Hobbiton, Kaikoura, Waitmo Caves, and the Milford Sound!"
+    "When you're in New Zealand you MUST visit Hobbiton, Kaikoura, Waitmo Caves, and the Milford Sound!",
+    "Visit New Zealand today!"
 
 )
 
 makeCity(
-    "img",
-    "city name",
-    "link"
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Auckland_skyline_from_harbor_bridge%2C_20_September_2019.jpg/278px-Auckland_skyline_from_harbor_bridge%2C_20_September_2019.jpg",
+    "Auckland",
+    "https://en.wikipedia.org/wiki/Auckland"
 )
 
 

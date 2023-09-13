@@ -38,7 +38,7 @@ let finalCountryList = document.querySelector('.country-list')
 finalCountryList.innerHTML = countryList()
 
 
-import {celebList} from './celeblist.js'
+import {celebList} from './nz-celeblist.js'
 
 let finalCelebList = document.querySelector('.celeb-list')
 
