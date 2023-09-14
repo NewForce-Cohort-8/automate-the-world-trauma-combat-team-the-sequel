@@ -69,3 +69,25 @@ img {
   text-align: center;
   font-size: 20px;
 }
+.footer{
+    background-image: url("https://downloadwap.com/thumbs2/wallpapers/p2ls/2019/abstract/45/d7545ee913426700.jpg")
+  }
+  #footer-back {
+    display:flex;
+    justify-content: center;
+    color: brown;
+    
+  }
+  
+  .footer-logo{
+    display:flex;
+    justify-content:center;
+    width: 200px;
+    height: 100px;
+  }
+  .footer-copyright{
+    display:flex;
+    justify-content:center;
+    color:greenyellow;
+  }
+
