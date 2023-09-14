@@ -1,7 +1,20 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
 img {
-    width: 400px;
+    width: 350px;
     height: auto;
     object-fit: fill;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(.25);
+}
+
+body {
+    background-color: orange;
 }
 
 .celeb-list,
@@ -11,6 +24,11 @@ img {
     flex-flow: row wrap;
     justify-content: center;
     gap: 20px;
+}
+
+.dest-card {
+    background-color: pink;
+    color: lime;
 }
 
 .celeb {
