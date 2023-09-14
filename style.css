@@ -1,0 +1,23 @@
+/* img {
+    width: 200px;
+    height: auto;
+    object-fit: fill;
+}
+
+.celeb-list {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.celeb {
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    width: 50%;
+    text-align: center;
+    list-style: none;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+*/
