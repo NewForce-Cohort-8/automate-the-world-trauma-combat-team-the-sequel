@@ -19,13 +19,13 @@ const countryData = {
         } ,
         {
             image: "https://www.worldatlas.com/r/w1200/upload/fb/e3/da/shutterstock-1103219396.jpg",
-            Title: "New England",
-            Link: "england/index.html"
+            Title: "England",
+            Link: "england/england.html"
         } ,
         {
             image: "https://images.summitmedia-digital.com/esquiremagph/images/gallery/6587/MAIN-china-tourist-destination.jpg",
             Title: "China",
-            Link: "china/index.html"
+            Link: "china/china.html"
         }
 
     ]
