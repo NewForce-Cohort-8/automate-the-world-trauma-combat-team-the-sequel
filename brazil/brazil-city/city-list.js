@@ -13,9 +13,9 @@ export const cityList = () => {
 
         
         htmlString += `<section class="city">
-            <div><img class="        " src="${city.image}" /></div>
-            <div class="  city-name   "> <span>Name:</span> ${ city.name} CLICK ME</div>
-            <div class="  city-discript   "> <span>Discription:</span> ${city.discription}</div>
+            <div><img class="        " src="${city.image}"/></div>
+            <div class="     "> ${ city.name}</div>
+            <div class="     "> ${city.discription}</div>
             <div><a href="${city.wiki}">${city.name}</a><div>
             
             </section>

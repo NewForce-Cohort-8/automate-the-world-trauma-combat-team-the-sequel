@@ -14,8 +14,8 @@ export const landList = () => {
         
         htmlString += `<section class="      ">
             <div><img class="     " src="${land.image}" /></div>
-            <div class="     "> <span>Name:</span> ${ land.name}</div>
-            <div class="     "> <span>Discription:</span> ${land.discription}</div>
+            <div class="     ">  ${ land.name}</div>
+            <div class="     ">  ${land.discription}</div>
            
             </section>
          `
