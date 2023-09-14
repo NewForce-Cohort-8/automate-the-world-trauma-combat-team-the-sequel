@@ -7,12 +7,18 @@
     <title>Country Page Template</title>
 </head>
 <body>
-        <header>
-        <h1>{travel brochure With logo image}</h1>
-        <nav> {NAVBAR pop travel 
-        , home, city}</nav>
-        </header>
-    <hr>
+    <header>
+        <div class="logo">
+            <img src="../china/Images/vat.png" alt="Logo">
+        <hr>
+        <nav id="navbar">
+            <a href="../index.html"> Home </a>
+            <a href="../new-zealand/new-zealand.html"> New Zealand </a>
+            <a href="../china/china.html"> China </a>
+            <a href="../england/england.html"> England </a>
+            <a href="../brazil/brazil.html"> Brazil </a>
+         </nav>
+    </header>
 
     <!-- Main intro section  -->
 
@@ -51,15 +57,15 @@
                             </section>
 
         <hr>
-        <footer class="footer">
-
-            <div class="footer-icon">
-                <figure>
-                    <img src="https://files.slack.com/files-pri/TDXR3HY84-F05RRUQBX6H/vat.png" alt="logo"> &lt;&lt;&lt; &copy; {BROCHURE TITLE} &gt;&gt;&gt;</p>
-                </figure>       
-            </div>
-                            <a href="#">Back To Top</a>
-        </footer>
+    <!-- juan added footer -->
+    <footer class="footer">
+        <figure> <!-- figure semantic tag -->
+              <img class="footer-logo" src="../china/Images/vat.png" alt="logo"> 
+              <!-- added logo from china folder -->
+        </figure>  
+        <h5 class='footer-copyright'>&lt;&lt;&lt; &copy; Violently American Travels &gt;&gt;&gt;</h5> <!-- copyright and title of brochure  -->
+                    <a id="footer-back" href="#">Back To Top</a> <!-- back to top hyperlink  -->
+    </footer>
 
         <script type="module" src="scripts/franceMain.js"></script>
 </body>
