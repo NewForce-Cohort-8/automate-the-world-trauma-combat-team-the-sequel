@@ -16,15 +16,15 @@ const countryData = {
         } ,
         {
             image: "-Image-",
-            Title: "-Title-",
+            Title: "France",
             Landmark: "-Landmark-",
-            Link: "-Link-"
+            Link: "france/franceIndex.html"
         } ,
         {
             image: "-Image-",
-            Title: "-Title-",
+            Title: "New Zealand",
             Landmark: "-Landmark-",
-            Link: "-Link-"
+            Link: "new-zealand/new-zealand.html"
         } ,
         {
             image: "-Image-",
