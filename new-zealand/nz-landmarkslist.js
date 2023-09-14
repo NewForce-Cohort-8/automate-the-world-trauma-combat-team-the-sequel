@@ -12,7 +12,7 @@ export const landmarkList = () => {
 
         // Why is there a backtick used for this string?
         htmlString += `<section class="landmark-card">
-            <div><class="landmark__description">${singleLandmark.description}></div>
+            <div><class="landmark__description">${singleLandmark.description}</div>
             <div class="landmark__highlights">${singleLandmark.highlights}</div>
             <div class="landmark__locations">${singleLandmark.locations}</div>
             <div class="landmark__more">${singleLandmark.more}</div>
